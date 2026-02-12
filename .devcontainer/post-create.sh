@@ -11,11 +11,6 @@ if ! command -v z3 >/dev/null 2>&1 && command -v apt-get >/dev/null 2>&1; then
   fi
 fi
 
-if [ ! -d ".venv" ]; then
-  python3 -m venv .venv
-fi
+python3 -m pip install --user -r requirements.txt
 
-.venv/bin/python -m pip install --upgrade pip
-.venv/bin/python -m pip install -r requirements.txt
-
-.venv/bin/python z3_HW_problem-1.py
+python3 z3_HW_problem-1.py

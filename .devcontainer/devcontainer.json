@@ -4,9 +4,6 @@
   "remoteUser": "vscode",
   "customizations": {
     "vscode": {
-      "settings": {
-        "python.defaultInterpreterPath": "${containerWorkspaceFolder}/.venv/bin/python"
-      },
       "extensions": [
         "ms-python.python",
         "ms-python.vscode-pylance"
