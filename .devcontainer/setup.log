@@ -1,0 +1,66 @@
+[2026-02-12T02:46:19Z] Running devcontainer setup
+Get:1 http://deb.debian.org/debian bookworm InRelease [151 kB]
+Get:2 http://deb.debian.org/debian bookworm-updates InRelease [55.4 kB]
+Get:3 http://deb.debian.org/debian-security bookworm-security InRelease [48.0 kB]
+Get:4 https://dl.yarnpkg.com/debian stable InRelease
+Get:5 http://deb.debian.org/debian bookworm/main arm64 Packages [8691 kB]
+Err:4 https://dl.yarnpkg.com/debian stable InRelease
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 62D54FD4003F6525
+Get:6 http://deb.debian.org/debian bookworm-updates/main arm64 Packages [6936 B]
+Get:7 http://deb.debian.org/debian-security bookworm-security/main arm64 Packages [291 kB]
+Reading package lists...
+W: GPG error: https://dl.yarnpkg.com/debian stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 62D54FD4003F6525
+E: The repository 'https://dl.yarnpkg.com/debian stable InRelease' is not signed.
+[2026-02-12T02:50:12Z] Running devcontainer setup
+Get:1 http://deb.debian.org/debian bookworm InRelease [151 kB]
+Get:2 http://deb.debian.org/debian bookworm-updates InRelease [55.4 kB]
+Get:3 http://deb.debian.org/debian-security bookworm-security InRelease [48.0 kB]
+Get:4 http://deb.debian.org/debian bookworm/main arm64 Packages [8691 kB]
+Get:5 http://deb.debian.org/debian bookworm-updates/main arm64 Packages [6936 B]
+Get:6 http://deb.debian.org/debian-security bookworm-security/main arm64 Packages [291 kB]
+Fetched 9243 kB in 2s (4532 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  z3
+0 upgraded, 1 newly installed, 0 to remove and 96 not upgraded.
+Need to get 6286 kB of archives.
+After this operation, 22.1 MB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bookworm/main arm64 z3 arm64 4.8.12-3.1 [6286 kB]
+Fetched 6286 kB in 1s (12.0 MB/s)
+Selecting previously unselected package z3.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29681 files and directories currently installed.)
+Preparing to unpack .../z3_4.8.12-3.1_arm64.deb ...
+Unpacking z3 (4.8.12-3.1) ...
+Setting up z3 (4.8.12-3.1) ...
+Processing triggers for man-db (2.11.2-2) ...
+Collecting z3-solver==4.15.4.0 (from -r requirements.txt (line 1))
+  Downloading z3_solver-4.15.4.0-py3-none-manylinux_2_34_aarch64.whl.metadata (602 bytes)
+Downloading z3_solver-4.15.4.0-py3-none-manylinux_2_34_aarch64.whl (27.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 27.2/27.2 MB 13.2 MB/s eta 0:00:00
+Installing collected packages: z3-solver
+Successfully installed z3-solver-4.15.4.0
+
+[notice] A new release of pip is available: 25.0.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+Presentation Q is scheduled at 10 in Room Beta
+Presentation A is scheduled at 9 in Room Alpha
+Presentation B is scheduled at 11 in Room Gamma
+Presentation C is scheduled at 9 in Room Beta
+Presentation N is scheduled at 9 in Room Gamma
+Presentation M is scheduled at 11 in Room Alpha
+Presentation CC is scheduled at 10 in Room Alpha
+Presentation DS is scheduled at 10 in Room Gamma
+Presentation IoT is scheduled at 11 in Room Beta
+[2026-02-12T02:50:21Z] Running devcontainer setup
+Presentation Q is scheduled at 10 in Room Beta
+Presentation A is scheduled at 9 in Room Alpha
+Presentation B is scheduled at 11 in Room Gamma
+Presentation C is scheduled at 9 in Room Beta
+Presentation N is scheduled at 9 in Room Gamma
+Presentation M is scheduled at 11 in Room Alpha
+Presentation CC is scheduled at 10 in Room Alpha
+Presentation DS is scheduled at 10 in Room Gamma
+Presentation IoT is scheduled at 11 in Room Beta
